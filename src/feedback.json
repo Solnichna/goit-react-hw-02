@@ -1,0 +1,7 @@
+[
+    {"Feedback"
+  feedbackTypes={feedbackTypes} 
+  totalFeedback={totalFeedback} 
+  positivePercentage={positivePercentage} 
+}
+]
