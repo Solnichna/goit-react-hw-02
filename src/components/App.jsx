@@ -33,7 +33,7 @@ import '../components/App.module.css';
             <Description />
             <Options updateFeedback={updateFeedback} />
             {totalFeedback > 0 ? (
-                <Feedback feedback={feedback} positiveFeedback={positiveFeedback} />
+                 <Feedback feedback={feedback} positiveFeedback={positiveFeedback} totalFeedback={totalFeedback} />
             ) : (
                 <Notification />
             )}
